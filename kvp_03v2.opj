@@ -46,19 +46,20 @@
       (Path "Design Resources" ".\kvp_03v2.dsn" "TOP LEVEL")
       (Path "Design Resources" ".\kvp_03v2.dsn" "A - RS422")
       (Path "Design Resources" ".\kvp_03v2.dsn" "B - IO")
-      (Path "Outputs"))
+      (Path "Outputs")
+      (Select "Design Resources" ".\kvp_03v2.dsn" "TOP LEVEL" "MAIN"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 150 0 880"))
+        (Placement "44 0 1 -1 -1 -1 -1 0 250 0 880"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -4 -29 54 1395 56 639")
-        (Scroll "-234 170")
-        (Zoom "100")
+        (Placement "44 2 3 -1 -1 -4 -29 54 1395 56 639")
+        (Scroll "-524 5")
+        (Zoom "69")
         (Occurrence "/"))
       (Path "D:\PROJECT\CIRCUIT\ORCAD\KVP\03V2\KVP_03V2.DSN")
       (Schematic "TOP LEVEL")
@@ -66,10 +67,21 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 -4 -29 108 1453 112 699")
-        (Scroll "-411 20")
+        (Placement "44 0 1 -1 -1 -4 -29 108 1453 112 699")
+        (Scroll "-236 0")
         (Zoom "100")
         (Occurrence "/A1"))
       (Path "D:\PROJECT\CIRCUIT\ORCAD\KVP\03V2\KVP_03V2.DSN")
       (Schematic "A - RS422")
-      (Page "A - RS422"))))
+      (Page "A - RS422"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -4 -29 108 1517 112 699")
+        (Scroll "-268 374")
+        (Zoom "100")
+        (Occurrence "/D1"))
+      (Path "D:\PROJECT\CIRCUIT\ORCAD\KVP\03V2\KVP_03V2.DSN")
+      (Schematic "B - IO")
+      (Page "B - IO")))
+  (MPSSessionName "Shcheblykin"))
