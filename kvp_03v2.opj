@@ -37,7 +37,13 @@
       (Type "Report")
       (DisplayName "pstchip.dat")))
   (Folder "Referenced Projects")
-  (PartMRUSelector)
+  (PartMRUSelector
+    (TOP
+      (LibraryName "D:\PROJECT\CIRCUIT\BP2\BP2_02V4\LIBRARY1.OLB")
+      (DeviceIndex "0"))
+    (BOT_1
+      (LibraryName "D:\PROJECT\CIRCUIT\BP2\BP2_02V4\LIBRARY1.OLB")
+      (DeviceIndex "0")))
   (ISPCBBASICLICENSE "false")
   (GlobalState
     (FileView
@@ -47,31 +53,23 @@
       (Path "Design Resources" ".\kvp_03v2.dsn" "A - RS422")
       (Path "Design Resources" ".\kvp_03v2.dsn" "B - IO")
       (Path "Outputs")
-      (Select "Design Resources" ".\kvp_03v2.dsn" "TOP LEVEL" "MAIN"))
+      (Select "Design Resources" ".\kvp_03v2.dsn" "TOP LEVEL" "MAIN")
+      (Select "Design Resources" ".\kvp_03v2.dsn" "A - RS422" "A - RS422")
+      (Select "Design Resources" ".\kvp_03v2.dsn" "B - IO" "B - IO"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 250 0 3"))
+        (Placement "44 0 1 -1 -1 -1 -1 0 250 0 901"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -4 -24 66 1463 69 566")
-        (Scroll "-264 270")
-        (Zoom "100")
+        (Placement "44 2 3 -1 -1 -4 -24 110 1507 115 577")
+        (Scroll "-492 0")
+        (Zoom "77")
         (Occurrence "/"))
       (Path "D:\PROJECT\CIRCUIT\KVP\03V2\KVP_03V2.DSN")
       (Schematic "TOP LEVEL")
-      (Page "MAIN"))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 2 3 -1 -1 -4 -24 88 1485 92 589")
-        (Scroll "-378 0")
-        (Zoom "100")
-        (Occurrence "/A3"))
-      (Path "D:\PROJECT\CIRCUIT\KVP\03V2\KVP_03V2.DSN")
-      (Schematic "A - RS422")
-      (Page "A - RS422")))
+      (Page "MAIN")))
   (MPSSessionName "Shcheblykin"))

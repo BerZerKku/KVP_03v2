@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-
-<filelist>
-	<fileset usecurrentdir="true">
-	  <file value="Плата КВП KVP_03v2 (СБ) 1.pdf"/>
-	  <file value="Плата КВП KVP_03v2 (СБ) 2.pdf"/>
-	  <file value="Плата КВП KVP_03v2 (СП).pdf"/>
-	</fileset>
-</filelist>
